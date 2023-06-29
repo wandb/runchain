@@ -8,8 +8,8 @@ You will use wandb runs and artifacts to produce trees of runs and checkpoints t
 
 <img src="/docs/runchain-lineage.jpg" width="100%">
 
-[Example run chain project in W&B](https://wandb.ai/shawn/branchtest_400_200_1000/artifacts/checkpoint/run-orffw4hm-checkpoint/49126f1c69f4b99223d0/lineage)
-(the lineage view for a large project takes a little while to load. Try switching the Style dropdown to "Complete")
+[Example run chain project in W&B] (https://wandb.ai/shawn/run_chain_20_200_10000/artifacts/checkpoint/run-r49iiea8-checkpoint/04e587dc760eb9b35943/lineage)
+(Try switching the Style dropdown to "Complete")
 
 You will use Weave dashboards to visualize metrics for "run chains", which are paths through such a tree.
 
