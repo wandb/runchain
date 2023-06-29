@@ -1,0 +1,4 @@
+wandb/
+.python-version
+artifacts/
+*.pyc
