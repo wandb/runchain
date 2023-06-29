@@ -12,7 +12,7 @@ import tqdm
 import syndata
 
 
-PROJECT = "branchtest1"
+PROJECT = "runchain-demo"
 
 parser = argparse.ArgumentParser(description="Run a run")
 
@@ -134,7 +134,7 @@ class PseudoModel:
 def do_run(n_metrics, n_steps, n_checkpoint_steps, checkpoint_artifact):
     run = wandb.init(project=PROJECT)
 
-    # For logging a lot of history metrics, it may make sense to
+    # For logging a lot of history metrics (10s of thousands), it may make sense to
     # disable summary metrics, which cause memory and network overhead.
     run.define_metric("*", summary="none")
 
